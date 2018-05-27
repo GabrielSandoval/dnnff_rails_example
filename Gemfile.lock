@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/gabrielsandoval/dnnff.git
+  revision: be89147023b388de04ef1a25a4e7cf1274aa8111
+  specs:
+    dnnff (0.1.0)
+      rails (~> 5.0.7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -161,6 +168,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
+  dnnff!
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
