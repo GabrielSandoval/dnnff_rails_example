@@ -1,0 +1,82 @@
+<%= form_for(body) do |f| %>
+  <% if body.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(body.errors.count, "error") %> prohibited this body from being saved:</h2>
+
+      <ul>
+      <% body.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :full_name %>
+    <%= f.text_field :full_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :weight %>
+    <%= f.number_field :weight %>
+  </div>
+
+  <div class="field">
+    <%= f.label :stature %>
+    <%= f.number_field :stature %>
+  </div>
+
+  <div class="field">
+    <%= f.label :head_circumference %>
+    <%= f.number_field :head_circumference %>
+  </div>
+
+  <div class="field">
+    <%= f.label :shoulder_breadth %>
+    <%= f.number_field :shoulder_breadth %>
+  </div>
+
+  <div class="field">
+    <%= f.label :hand_length %>
+    <%= f.number_field :hand_length %>
+  </div>
+
+  <div class="field">
+    <%= f.label :hand_breadth %>
+    <%= f.number_field :hand_breadth %>
+  </div>
+
+  <div class="field">
+    <%= f.label :chest_circumference %>
+    <%= f.number_field :chest_circumference %>
+  </div>
+
+  <div class="field">
+    <%= f.label :waist_circumference %>
+    <%= f.number_field :waist_circumference %>
+  </div>
+
+  <div class="field">
+    <%= f.label :foot_length %>
+    <%= f.number_field :foot_length %>
+  </div>
+
+  <div class="field">
+    <%= f.label :foot_breadth %>
+    <%= f.number_field :foot_breadth %>
+  </div>
+
+  <div class="field">
+    <%= f.label :age %>
+    <%= f.number_field :age %>
+  </div>
+
+  <div class="field">
+    <%= f.label :gender %>
+    <%= f.text_field :gender %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

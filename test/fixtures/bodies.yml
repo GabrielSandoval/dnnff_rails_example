@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  full_name: MyString
+  weight: 1
+  stature: 1
+  head_circumference: 1
+  shoulder_breadth: 1
+  hand_length: 1
+  hand_breadth: 1
+  chest_circumference: 1
+  waist_circumference: 1
+  foot_length: 1
+  foot_breadth: 1
+  age: 1
+  gender: MyString
+
+two:
+  full_name: MyString
+  weight: 1
+  stature: 1
+  head_circumference: 1
+  shoulder_breadth: 1
+  hand_length: 1
+  hand_breadth: 1
+  chest_circumference: 1
+  waist_circumference: 1
+  foot_length: 1
+  foot_breadth: 1
+  age: 1
+  gender: MyString
