@@ -1,24 +1,15 @@
-# README
+# DNNFF Rails example
+Example usage of DNNFF plugin on a Rails app.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+DNNFF plugin: https://github.com/GabrielSandoval/dnnff
 
-Things you may want to cover:
+## Installation
+1. Run `bundle install`
 
-* Ruby version
+2. Execute `rails db:create && rails db:migrate`
 
-* System dependencies
+3. Run the Rails app `rails s`
 
-* Configuration
+* On the `bodies` resource, the app should be able to predict the gender (Male/Female) based on the body measurements
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* On the `flowers` resource, tha app should be able to predict the specie of the flower (Setosa/Versicolor/Virginica) given the petal and sepal lengths and widths.
